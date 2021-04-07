@@ -8,9 +8,22 @@
 	<title>INDEX</title>
 </head>
 <body>
+<%@include file="login/loginModal.jsp"%>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#loginTag').click(function(){
+			$('#loginModal').modal("show");
+		});
+	});
+</script>
 	<br>
 	<div class="text-center">
-		<a href="${root}join/agreement">회원가입</a>
+		<c:if test="${mem_id == null}">
+			<a href="javascript:void(0);" id="loginTag">로그인</a>
+		</c:if>
+		<c:if test="${mem_id != null}">
+			<a>로그아웃</a>
+		</c:if>
 	</div>
 </body>
 </html>

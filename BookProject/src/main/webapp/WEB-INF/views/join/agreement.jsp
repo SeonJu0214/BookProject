@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-
+<%@include file="../include/head.jsp"%>
 <title>회원가입 > 이용 약관 페이지</title>
 
 <style type="text/css">
@@ -33,7 +33,6 @@
 </style>
 </head>
 <body>
-	<%@include file="../include/title.jsp"%>
 	<%@include file="privacyModal.jsp"%>
 	<%@include file="tosModal.jsp"%>
 	<script type="text/javascript">
@@ -108,6 +107,11 @@
 			}
 		}
 	</script>
+	<br>
+	<div class="text-center">
+		<h1 id="title">회원가입</h1>
+	</div>
+	<hr>
 	
 	<div id="wrap">
 

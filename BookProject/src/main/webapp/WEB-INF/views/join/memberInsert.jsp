@@ -248,7 +248,11 @@
 	}
 </script>
 
-<%@include file="../include/title.jsp"%>
+	<br>
+	<div class="text-center">
+		<h1 id="title">회원가입</h1>
+	</div>
+	<hr>
 	<div id="wrap">
 
 		<div class="container">
