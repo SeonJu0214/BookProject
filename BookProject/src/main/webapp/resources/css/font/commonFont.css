@@ -1,0 +1,27 @@
+/* 공통 font */
+@charset "UTF-8";
+
+/* 넥슨 Lv.1 고딕 Regular */
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div {
+	font-family: 'NEXON Lv1 Gothic OTF';
+}
+
+/* 페이지 이동 경로 태그 설정 */
+#route a {
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#necessaryTag, .msg {
+	color: red;
+	font-size: small;
+}
