@@ -4,7 +4,7 @@
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 <typeAliases>
-		<typeAlias alias="MemberDTO"
-			type="co.kr.mem.member.model.MemberDTO" />
-		</typeAliases>
+	<typeAlias alias="MemberDTO"
+		type="com.study.book.member.model.MemberDTO" />
+	</typeAliases>
 </configuration>

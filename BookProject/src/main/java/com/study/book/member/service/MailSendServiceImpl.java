@@ -46,7 +46,7 @@ public class MailSendServiceImpl implements MailSendService{
         // 인증 메일 보내기
         MimeMessage mail = mailSender.createMimeMessage();
         String mailContent = "<h1>[이메일 인증]</h1><br>"+mem_id +"<p>님 반갑습니다.아래 링크를 클릭해서 이메일 인증을 완료 해주세요</p>";
-        mailContent += "<a href='http://192.168.0.90:8080/mem/signUpConfirm?mem_id=";
+        mailContent += "<a href='http://192.168.0.90:8080/book/signUpConfirm?mem_id=";
         mailContent += mem_id + "&authKey=" + authKey + "' target='_blenk'>이메일 인증 확인(여기를 눌러주세요)</a>";
 
         try {
